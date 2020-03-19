@@ -2,5 +2,9 @@ class Person
   
   attr_accessor
   
-  def initialize()
+  def initialize(attributes)
+    attributes.each {|attribute|  
+  
+  end
+  
 end
